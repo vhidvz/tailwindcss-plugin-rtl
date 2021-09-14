@@ -1,0 +1,21 @@
+{
+  "name": "tailwindcss-plugin-rtl",
+  "version": "1.0.0",
+  "description": " A plugin that provides a variants to handle RTL direction. ",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vhidvz/tailwindcss-plugin-rtl.git"
+  },
+  "keywords": [
+    "tailwindcss",
+    "plugin",
+    "rtl"
+  ],
+  "author": "Vahid V. <vhid.vz@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vhidvz/tailwindcss-plugin-rtl/issues"
+  },
+  "homepage": "https://github.com/vhidvz/tailwindcss-plugin-rtl#readme"
+}
