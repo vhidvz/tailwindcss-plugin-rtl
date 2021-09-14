@@ -1,7 +1,7 @@
 {
   "name": "tailwindcss-plugin-rtl",
-  "version": "1.0.0",
-  "description": " A plugin that provides a variants to handle RTL direction. ",
+  "version": "1.0.2",
+  "description": " A plugin that provides a variants to handle RTL direction.",
   "main": "src/index.js",
   "repository": {
     "type": "git",
