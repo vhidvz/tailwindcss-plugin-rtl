@@ -41,7 +41,7 @@ module.exports = {
 # Usage
 
 ```html
-<div class="text-green text-2xl pl-4 rtl:pr-4">
+<div class="text-green text-2xl pl-4 rtl:pr-4 rtl:pl-0">
 	Hello World.
 </div>
 ```
