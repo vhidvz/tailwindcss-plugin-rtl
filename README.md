@@ -1,4 +1,4 @@
-# Tailwind RTL
+# Tailwind RTL - Plugin
 [![GitHub](https://img.shields.io/github/license/vhidvz/tailwindcss-plugin-rtl)](https://github.com/vhidvz/tailwindcss-plugin-rtl)
 [![npm](https://img.shields.io/npm/v/tailwindcss-plugin-rtl)](https://www.npmjs.com/package/tailwindcss-plugin-rtl)
 [![Publish to NPM Package Registry](https://github.com/vhidvz/tailwindcss-plugin-rtl/actions/workflows/npm-ci.yml/badge.svg)](https://github.com/vhidvz/tailwindcss-plugin-rtl/actions/workflows/npm-ci.yml)
