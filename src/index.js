@@ -1,4 +1,4 @@
-module.exports = function ({ addVariant, addUtilities, e }) {
+module.exports = function ({ addVariant, addUtilities, config, e }) {
   addVariant("rtl", ({ modifySelectors, separator }) => {
     modifySelectors(({ className }) => {
       return `[dir='rtl'] .${e(`rtl${separator}${className}`)}`;
@@ -7,20 +7,20 @@ module.exports = function ({ addVariant, addUtilities, e }) {
 
   const newUtilities = {
     // margin
-    ".mr-unset": {
+    [`.${e(`rtl${config().separator}mr-unset`)}`]: {
       "margin-right": "unset !important",
     },
-    ".ml-unset": {
+    [`.${e(`rtl${config().separator}ml-unset`)}`]: {
       "margin-left": "unset !important",
     },
     // padding
-    ".pr-unset": {
+    [`.${e(`rtl${config().separator}pr-unset`)}`]: {
       "padding-right": "unset !important",
     },
-    ".pl-unset": {
+    [`.${e(`rtl${config().separator}pl-unset`)}`]: {
       "padding-left": "unset !important",
     },
   };
 
-  addUtilities(newUtilities, ["responsive", "rtl"]);
+  addUtilities(newUtilities, { respectImportant: false });
 };

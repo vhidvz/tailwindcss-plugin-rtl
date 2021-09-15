@@ -28,6 +28,7 @@ module.exports = {
   variants: {
     extend: {
       float: ['responsive', 'rtl'],
+      clear: ['responsive', 'rtl'],
       margin: ['responsive', 'rtl'],
       padding: ['responsive', 'rtl'],
     },
@@ -41,7 +42,16 @@ module.exports = {
 # Usage
 
 ```html
-<div class="text-green text-2xl pl-4 rtl:pr-4 rtl:pl-0">
+<div class="text-green text-2xl pl-4 rtl:pr-4 rtl:pl-unset">
 	Hello World.
 </div>
 ```
+
+# Utilities
+
+| Class        | CSS                             |
+|--------------|---------------------------------|
+| rtl:mr-unset | margin-right: unset !important  |
+| rtl:ml-unset | margin-left: unset !important   |
+| rtl:pr-unset | padding-right: unset !important |
+| rtl:pl-unset | padding-left: unset !important  |
