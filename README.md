@@ -4,7 +4,7 @@
 [![Publish to NPM Package Registry](https://github.com/vhidvz/tailwindcss-plugin-rtl/actions/workflows/npm-ci.yml/badge.svg)](https://github.com/vhidvz/tailwindcss-plugin-rtl/actions/workflows/npm-ci.yml)
 
 Tailwind RTL plugin adds a custom `rtl` variant and utilities to your tailwind project,
-letting you have to custom CSS rules for RTL layouts.
+letting you have custom CSS rules for directional layouts.
 
 **Note: This package does not specified by specific version of the tailwindcss**
 
