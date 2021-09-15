@@ -45,7 +45,7 @@ module.exports = {
 </div>
 ```
 
-**Note:**
+**Notes:**
   - ```float``` and ```clear``` are supported by utilities.
   - ```left``` and ```right``` positioned elements support built-in RTL. [reference](https://developer.mozilla.org/en-US/docs/Web/CSS/right#declaring_both_left_and_right)
 
